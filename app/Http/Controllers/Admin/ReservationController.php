@@ -5,10 +5,10 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class TpuController extends Controller
+class ReservationController extends Controller
 {
     public function index()
     {
-        return view('pages.admin.tpu.index');
+        return view('pages.admin.reservation.index');
     }
 }
