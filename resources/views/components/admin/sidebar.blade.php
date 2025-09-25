@@ -2,22 +2,14 @@
     <div class="h-100" data-simplebar>
         <div id="sidebar-menu">
             <div class="logo-box">
-                <a href="{{ url('/') }}" class="logo logo-light">
-                    <span class="logo-sm">
-                        <img src="{{ asset('assets/admin/images/logo-sm.png') }}" alt="" height="22">
-                    </span>
-                    <span class="logo-lg">
-                        <img src="{{ asset('assets/admin/images/logo-light.png') }}" alt="" height="24">
-                    </span>
-                </a>
-                <a href="{{ url('/') }}" class="logo logo-dark">
-                    <span class="logo-sm">
-                        <img src="{{ asset('assets/admin/images/logo-sm.png') }}" alt="" height="22">
-                    </span>
-                    <span class="logo-lg">
-                        <img src="{{ asset('assets/admin/images/logo-dark.png') }}" alt="" height="24">
-                    </span>
-                </a>
+                {{-- <a href="{{ url('/') }}" class="logo logo-light">
+                    SI ALPHA
+
+                </a> --}}
+                {{-- <a href="{{ url('/') }}" class="logo logo-dark">
+                    SI ALPHA
+                </a> --}}
+                <h1>SI ALPHA</h1>
             </div>
 
             <ul id="side-menu">

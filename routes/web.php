@@ -1,8 +1,13 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Public\HomeController;
 
 Auth::routes();
+
+    // Route::get('/', [App\Http\Controllers\Public\HomeController::class, 'index'])->name('publics.index');
+    Route::get('/', [HomeController::class, 'index'])->name('publics.reservation.index');
+    Route::post('/reservation', [HomeController::class, 'store'])->name('publics.reservation.store');
 
 
 Route::middleware(['auth'])->group(function () {
