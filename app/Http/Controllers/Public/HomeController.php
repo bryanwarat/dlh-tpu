@@ -18,7 +18,7 @@ class HomeController extends Controller
         $cemeteries = Cemetery::all();
         $religions  = Religion::all();
 
-        return view('pages.public.reservation', compact('cemeteries', 'religions'));
+        return view('pages.public.home', compact('cemeteries', 'religions'));
     }
 
 
