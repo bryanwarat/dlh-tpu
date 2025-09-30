@@ -11,7 +11,7 @@
         </div>
     </div>
 
-    <!-- Start Main Widgets -->
+    {{-- <!-- Start Main Widgets -->
     <div class="row">
         <div class="col-md-6 col-lg-4 col-xl">
             <div class="card">
@@ -177,7 +177,7 @@
             </div>
         </div>
 
-    </div>
+    </div> --}}
 
 
 @endsection
