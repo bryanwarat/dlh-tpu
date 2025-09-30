@@ -15,24 +15,24 @@
                             <div class="mb-0 border-0 p-md-4 p-lg-0">
                                 <div class="mb-4 p-0 text-lg-start text-center">
                                     <div class="auth-brand">
-                                        <a href="{{ url('/dashboard/admin') }}" class="logo logo-light">
+                                        {{-- <a href="{{ url('/dashboard/admin') }}" class="logo logo-light">
                                             <span class="logo-lg">
                                                 <img src="{{ asset('assets/images/logo-light-3.png') }}" alt="logo"
                                                     height="24">
                                             </span>
-                                        </a>
-                                        <a href="{{ url('/dashboard/admin') }}" class="logo logo-dark">
+                                        </a> --}}
+                                        {{-- <a href="{{ url('/dashboard/admin') }}" class="logo logo-dark">
                                             <span class="logo-lg">
                                                 <img src="{{ asset('assets/images/logo-dark-3.png') }}" alt="logo"
                                                     height="24">
                                             </span>
-                                        </a>
+                                        </a> --}}
                                     </div>
                                 </div>
 
                                 <div class="auth-title-section mb-4 text-lg-start text-center">
-                                    <h3 class="text-dark fw-semibold mb-3">Welcome back! Please login</h3>
-                                    <p class="text-muted fs-14 mb-0">Enter your credentials to access your account.</p>
+                                    <h3 class="text-dark fw-semibold mb-3">Selamat Datang</h3>
+
                                 </div>
 
                                 {{-- Form Login --}}
@@ -76,11 +76,11 @@
                                             </div>
                                         </div>
                                         <div class="col-sm-6 text-end">
-                                            @if (Route::has('password.request'))
+                                            {{-- @if (Route::has('password.request'))
                                                 <a class="text-muted fs-14" href="{{ route('password.request') }}">
                                                     Forgot password?
                                                 </a>
-                                            @endif
+                                            @endif --}}
                                         </div>
                                     </div>
 
@@ -94,11 +94,11 @@
                                 </form>
 
                                 {{-- Register link --}}
-                                <div class="text-center text-muted">
+                                {{-- <div class="text-center text-muted">
                                     <p class="mb-0">Don't have an account?
                                         <a class="text-primary ms-2 fw-medium" href="{{ route('register') }}">Sign up</a>
                                     </p>
-                                </div>
+                                </div> --}}
 
                             </div>
                         </div>

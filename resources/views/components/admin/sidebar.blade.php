@@ -35,7 +35,15 @@
                     <a class="tp-link {{ request()->routeIs('admin.reservation.*') ? 'active' : '' }}"
                         href="{{ route('admin.reservation.index') }}">
                         <i data-feather="book"></i>
-                        <span>Pemesanan</span>
+                        <span>Pemakaman Baru</span>
+                    </a>
+                </li>
+
+                <li class="{{ request()->routeIs('admin.carrental.*') ? 'menuitem-active' : '' }}">
+                    <a class="tp-link {{ request()->routeIs('admin.carrental.*') ? 'active' : '' }}"
+                        href="{{ route('admin.carrental.index') }}">
+                        <i data-feather="book"></i>
+                        <span>Mobil Jenazah</span>
                     </a>
                 </li>
             </ul>

@@ -1,5 +1,5 @@
 <header class="header-area">
-    <div class="header-top second-header d-none d-md-block">
+    {{-- <div class="header-top second-header d-none d-md-block">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-8 d-none d-md-block">
@@ -24,7 +24,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
 
     {{-- Menu utama --}}
     <div id="header-sticky" class="menu-area">
@@ -45,17 +45,10 @@
                         <div class="main-menu text-right text-xl-right">
                             <nav id="mobile-menu">
                                 <ul>
-                                    <li class="has-sub">
-                                        <a href="{{ url('/') }}">Home</a>
-                                        <ul>
-                                            <li><a href="#">Home Page 01</a></li>
-                                            <li><a href="#">Home Page 02</a></li>
-                                            <li><a href="#">Home Page 03</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="{{ url('/about') }}">About Us</a></li>
-                                    <li><a href="{{ url('/services') }}">Services</a></li>
-                                    <li><a href="{{ url('/contact') }}">Contact</a></li>
+                                    <li><a href="{{ url('/') }}">Home</a></li>
+
+                                    <li><a href="#layanan">Layanan</a></li>
+                                    <li><a href="#about">Tentang Kami</a></li>
                                 </ul>
                             </nav>
                         </div>

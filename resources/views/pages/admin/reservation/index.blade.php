@@ -76,8 +76,8 @@
                         render: function(data) {
                             if (data == 1) {
                                 return '<span class="badge bg-success">Disetujui</span>';
-                            } else if (data == 2) {
-                                return '<span class="badge bg-warning text-dark">Menunggu</span>';
+                            } else if (data == 0) {
+                                return '<span class="badge bg-warning">Menunggu Verifikasi</span>';
                             } else {
                                 return '<span class="badge bg-danger">Ditolak</span>';
                             }
